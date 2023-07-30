@@ -8,6 +8,10 @@ class RCPair{
     }
 }
 public class FourSum{
+    /*
+     * TC: O(N^2)
+     * SC: O(N^2) --> HashMap + tem array
+     */
     static ArrayList<ArrayList<Integer>> fourSum(int[] arr, int target){
         int n = arr.length;
         ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
