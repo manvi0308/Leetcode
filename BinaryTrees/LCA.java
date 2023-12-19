@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 
 public class LCA {
 	public TreeNode findLCA(TreeNode root, int p, int q) {

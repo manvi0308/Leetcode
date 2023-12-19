@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 import java.util.*;
 public class PathFromRootToNode {
 	static boolean getPath(TreeNode root, ArrayList<Integer> res, int X) {

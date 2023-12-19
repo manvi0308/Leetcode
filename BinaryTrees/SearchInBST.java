@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 
 public class SearchInBST {
 	public TreeNode searchBST(TreeNode root, int data) {

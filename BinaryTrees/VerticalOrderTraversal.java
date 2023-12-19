@@ -1,15 +1,17 @@
-package trees;
+package BinaryTrees;
 
 import java.util.*;
+
 class Tuple {
-    TreeNode node;
-    int row;
-    int col;
-    public Tuple(TreeNode _node, int _row, int _col) {
-        node = _node;
-        row = _row;
-        col = _col;
-    }
+	TreeNode node;
+	int row;
+	int col;
+
+	public Tuple(TreeNode _node, int _row, int _col) {
+		node = _node;
+		row = _row;
+		col = _col;
+	}
 }
 
 public class VerticalOrderTraversal {

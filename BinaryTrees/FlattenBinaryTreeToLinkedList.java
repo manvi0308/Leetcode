@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 
 public class FlattenBinaryTreeToLinkedList {
 	static void Flatten(TreeNode root) {

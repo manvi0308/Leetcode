@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 import java.util.*;
 public class RightView {
 	static List<Integer> rightView(TreeNode root) {

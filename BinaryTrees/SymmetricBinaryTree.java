@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 
 public class SymmetricBinaryTree {
 	static boolean symmetricUtil(TreeNode r1, TreeNode r2) {

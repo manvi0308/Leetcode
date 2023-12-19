@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 
 public class IdenticalTrees {
 	static boolean isIdentical(TreeNode T1, TreeNode T2) {

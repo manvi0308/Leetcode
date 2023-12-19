@@ -1,4 +1,4 @@
-package trees;
+package BinaryTrees;
 import java.util.*;
 public class MorrisInOrderTraversal {
 		static ArrayList<Integer> morrisInOrder(TreeNode root){
