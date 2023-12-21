@@ -16,6 +16,7 @@ class Tuple {
 
 public class VerticalOrderTraversal {
 	public static List<List<Integer>> findVertical(TreeNode root) {
+		// Refer this /workspaces/Leetcode/BinaryTrees/Helper.java to understand the structure of map.
 		TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
 		Queue<Tuple> q = new LinkedList<Tuple>();
 		q.offer(new Tuple(root, 0, 0));
