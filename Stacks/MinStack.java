@@ -1,3 +1,5 @@
+package Stacks;
+
 import java.util.*;
 public class MinStack {
     private Stack<int[]> stack = new Stack<>(); // {x, min}

@@ -29,7 +29,7 @@ public class TopologicalSort {
 
         }
 
-        int topo[] = new int[N];
+        int topo[] = new int[V];
         int ind = 0;
         while (!stack.isEmpty()) {
             topo[ind++] = stack.pop();
