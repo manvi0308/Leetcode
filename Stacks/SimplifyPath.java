@@ -1,18 +1,25 @@
-package  Stacks;
+package Stacks;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class SimplifyPath {
-    public static void simplifyPath(String path) {
-        String[] parts = path.split("/");
-          System.out.println(Arrays.toString(parts));
-        //    System.out.println(parts.length);
-            System.out.println(parts[0].length());
-    }
-
-    public static void main(String[] args) {
-        String path = "/home////foo/";
-        simplifyPath(path);
-
+    public String simplifyPath(String path) {
+        Stack<String> s = new Stack<>();
+        StringBuilder res = new StringBuilder();
+        String[] p =path.split("/");
+        
+        for(int i=0;i<p.length;i++){
+            if(!s.isEmpty()  && p[i].equals("..")) s.pop();
+            else if(!p[i].equals("") && !p[i].equals(".") && !p[i].equals(".."))
+                s.push(p[i]);
+        }
+        
+        
+        if(s.isEmpty()) return "/";
+        while(!s.isEmpty()){
+            res.insert(0,s.pop()).insert(0,"/");
+        }
+        
+        return res.toString()
     }
 }
