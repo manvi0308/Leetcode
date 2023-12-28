@@ -1,7 +1,7 @@
 /*
 https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
  */
-
+import java.util.*;
 public class LIS{
     static int getLISMemo(int[] arr, int n, int i, int prev_index, int[][] dp){
         if(i == n)
