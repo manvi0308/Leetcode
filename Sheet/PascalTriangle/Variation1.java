@@ -1,4 +1,3 @@
-package Sheet.PascalTriangle;
 
 public class Variation1 {
     /*

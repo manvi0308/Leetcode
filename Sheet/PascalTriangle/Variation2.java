@@ -1,4 +1,4 @@
-public class Variation2{
+public class Variation2 {
     public static long nCr(int n, int r) {
         long res = 1;
 
@@ -9,6 +9,7 @@ public class Variation2{
         }
         return res;
     }
+
     public static void pascalTriangle(int n) {
         // printing the entire row n:
         for (int c = 1; c <= n; c++) {
