@@ -1,4 +1,4 @@
-
+package Sheet.PascalTriangle;
 public class Variation1 {
     /*
      * Variation 1: Given row number r and column number c. Print the element at
