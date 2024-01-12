@@ -1,7 +1,7 @@
 public class ChildrenSumProperty{
     static void childrenSumProperty(TreeNode root) {
 
-        if(root == null)
+        if(root null)
             return;
 
         int childSum = 0;
