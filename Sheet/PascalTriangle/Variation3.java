@@ -1,3 +1,5 @@
+package Sheet.PascalTriangle;
+
 import java.util.*;
 
 public class Variation3 {

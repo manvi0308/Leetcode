@@ -1,5 +1,4 @@
 package BinaryTrees;
-
 public class TreeNode {
     int data;
     TreeNode left;

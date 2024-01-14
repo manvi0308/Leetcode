@@ -1,3 +1,6 @@
+
+package Sheet.PascalTriangle;
+
 public class Variation2 {
     public static long nCr(int n, int r) {
         long res = 1;
