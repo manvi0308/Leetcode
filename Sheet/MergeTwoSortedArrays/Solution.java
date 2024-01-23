@@ -1,4 +1,3 @@
-package Sheet.MergeTwoSortedArrays;
 public class Solution {
     static void swapIfGreater(int[] arr1, int[] arr2, int ind1, int ind2) {
         if (arr1[ind1] > arr2[ind2]) {
@@ -34,10 +33,12 @@ public class Solution {
 
             left++;
             right++;
+
+            if (gap == 1)
+            break;
         }
 
-        if (gap == 1)
-            break;
+      
 
         gap = (gap / 2) + (gap % 2);
     }
