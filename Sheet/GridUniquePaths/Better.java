@@ -15,7 +15,7 @@ public class Better {
         }
 
         else
-        return dp[i][j] = countPaths(i + 1, j, n, m, dp) + countPaths(i, j + 1, n, m, dp);
+            return dp[i][j] = countPaths(i + 1, j, n, m, dp) + countPaths(i, j + 1, n, m, dp);
     }
 
     // & memoized form of recursive solution

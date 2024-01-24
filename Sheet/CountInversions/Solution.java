@@ -13,7 +13,6 @@ public class Solution {
         cnt += mergeSort(arr, mid + 1, high);
         cnt += merge(arr, low, mid, high);
 
-
         return cnt;
     }
 

@@ -35,10 +35,8 @@ public class Solution {
             right++;
 
             if (gap == 1)
-            break;
+                break;
         }
-
-      
 
         gap = (gap / 2) + (gap % 2);
     }
